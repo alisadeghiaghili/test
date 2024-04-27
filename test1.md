@@ -19,7 +19,7 @@ graph TD;
   GetLastDate2 --> SetFromPersianDate2;
   SetFromPersianDate2 --> FindCurrentDateID2;
   FindCurrentDateID2 --> DeleteRecords2;
-  click FindCurrentDateID2 "https://www.google.com" "https://www.google.com"
+  click FindCurrentDateID2 "http://google.com"
   DeleteRecords2 --> FindLastCurrentDate2;
   FindLastCurrentDate2 --> CreateDateListCursor2;
   CreateDateListCursor2 --> LoopDates2;
